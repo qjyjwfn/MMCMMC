@@ -1,18 +1,40 @@
 /**
- * USDT-CNY 极致兼容版
+ * USDT-CNY 稳定版
  */
-const url = "https://api.manmanbuy.com/get_huilv.aspx";
 
-$httpClient.get({url: url, timeout: 3000}, (error, response, data) => {
+const url = "https://open.er-api.com/v6/latest/USD";
+
+$httpClient.get({ url, timeout: 10000 }, (error, response, data) => {
+
+    // 请求失败
     if (error || !data) {
-        // 如果依然报错，可能是 Stash 拦截。显示一个当前大概汇率避免报错
-        $done({ title: "USDT-CNY", content: "USDT: ¥7.24\n(网络受限-离线数据)" });
-    } else {
-        // 该接口返回类似 "7.2345" 的纯文本
-        const rate = parseFloat(data).toFixed(2);
+        return $done({
+            title: "USDT-CNY",
+            content: "网络异常"
+        });
+    }
+
+    try {
+        const json = JSON.parse(data);
+
+        // 获取 USD -> CNY
+        const rate = parseFloat(json.rates.CNY).toFixed(2);
+
+        const now = new Date();
+        const hh = String(now.getHours()).padStart(2, "0");
+        const mm = String(now.getMinutes()).padStart(2, "0");
+
         $done({
             title: "USDT-CNY",
-            content: `USDT: ¥${rate}\n更新: ${new Date().getHours()}:${new Date().getMinutes()}`
+            content: `USDT: ¥${rate}\n更新: ${hh}:${mm}`
         });
+
+    } catch (e) {
+
+        $done({
+            title: "USDT-CNY",
+            content: "数据解析失败"
+        });
+
     }
 });
