@@ -1,32 +1,36 @@
-// 双实时汇率·稳定双行版：USDT + TRX
-const urlUsd = "https://api.it120.cc/gooking/forex/direct?fromCode=USD&toCode=CNY";
-const urlTrx = "https://api.it120.cc/gooking/coin/price?symbol=TRX";
+name: 实时汇率面板
+type: http-response
+url: ""
+script: |
+  // 双实时汇率·Stash专用双行版：USDT + TRX
+  const urlUsd = "https://api.it120.cc/gooking/forex/direct?fromCode=USD&toCode=CNY";
+  const urlTrx = "https://api.it120.cc/gooking/coin/price?symbol=TRX";
 
-Promise.allSettled([
-  fetch(urlUsd, { timeout: 5000 }).then(r => r.json()),
-  fetch(urlTrx, { timeout: 5000 }).then(r => r.json())
-]).then(([resUsd, resTrx]) => {
-  let usdt = 6.80;
-  let trx = 2.33;
+  Promise.allSettled([
+    fetch(urlUsd, { timeout: 5000 }).then(r => r.json()),
+    fetch(urlTrx, { timeout: 5000 }).then(r => r.json())
+  ]).then(([resUsd, resTrx]) => {
+    let usdt = 6.80;
+    let trx = 2.33;
 
-  if (resUsd.status === "fulfilled" && resUsd.value?.data != null && !isNaN(resUsd.value.data)) {
-    usdt = parseFloat(resUsd.value.data);
-  }
-  if (resTrx.status === "fulfilled" && resTrx.value?.data != null && !isNaN(resTrx.value.data)) {
-    trx = parseFloat(resTrx.value.data);
-  }
+    if (resUsd.status === "fulfilled" && resUsd.value?.data != null && !isNaN(resUsd.value.data)) {
+      usdt = parseFloat(resUsd.value.data);
+    }
+    if (resTrx.status === "fulfilled" && resTrx.value?.data != null && !isNaN(resTrx.value.data)) {
+      trx = parseFloat(resTrx.value.data);
+    }
 
-  const now = new Date();
-  const h = String(now.getHours()).padStart(2, '0');
-  const m = String(now.getMinutes()).padStart(2, '0');
+    const now = new Date();
+    const h = String(now.getHours()).padStart(2, '0');
+    const m = String(now.getMinutes()).padStart(2, '0');
 
-  $done({
-    title: "实时汇率",
-    content: `USDT: ¥${usdt.toFixed(2)}\nTRX: ¥${trx.toFixed(2)}\n更新: ${h}:${m}`
+    $done({
+      title: "实时汇率",
+      content: `USDT: ¥${usdt.toFixed(2)}\nTRX: ¥${trx.toFixed(2)}\n更新: ${h}:${m}`
+    });
+  }).catch(() => {
+    $done({
+      title: "实时汇率",
+      content: "USDT: ¥6.80\nTRX: ¥2.33\n网络异常"
+    });
   });
-}).catch(() => {
-  $done({
-    title: "实时汇率",
-    content: "USDT: ¥6.80\nTRX: ¥2.33\n网络异常"
-  });
-});
