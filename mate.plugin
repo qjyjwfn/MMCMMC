@@ -1,0 +1,12 @@
+#!name = Mate翻译
+#!desc = 移除Mate翻译高级版限制并同步配置
+#!author = Alex0510
+#!homepage = https://github.com/Alex0510/Eric
+#!icon = https://raw.githubusercontent.com/GideonSenku/SubConfig/master/Icon/Translate.png
+#!date = 2026-06-07
+
+[Script]
+http-response ^https://asia.gikken.co/matesync/(subscription|login|check_user) script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/mate.js, requires-body=true, tag=Mate翻译
+
+[MITM]
+hostname = asia.gikken.co
