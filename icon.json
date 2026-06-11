@@ -4,15 +4,15 @@
   "icons": [
     {
       "name": "proxy",
-      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/Proxy.png"
+      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/proxy.png"
     },
     {
       "name": "direct",
-      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/Direct.png"
+      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/direct.png"
     },
     {
       "name": "reject",
-      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/Reject.png"
+      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/reject.png"
     },
     {
       "name": "Global",
