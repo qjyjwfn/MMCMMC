@@ -4,6 +4,10 @@
   "description": "我的精简图标集",
   "icons": [
     {
+      "name": "shouhou(1)",
+    "url": "https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/06jichang/shouhou(1).png"
+    },
+    {
       "name": "Global",
       "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png"
     },
