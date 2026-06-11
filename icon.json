@@ -3,18 +3,6 @@
   "description": "我的精简图标集",
   "icons": [
     {
-      "name": "Proxy",
-      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Proxy.png"
-    },
-    {
-      "name": "Direct",
-      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Direct.png"
-    },
-    {
-      "name": "Reject",
-      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Reject.png"
-    },
-    {
       "name": "Global",
       "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png"
     },
