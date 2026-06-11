@@ -3,84 +3,84 @@
   "description": "我的精简图标集",
   "icons": [
     {
-      "name": "proxy",
-      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/proxy.png"
+      "name": "Proxy",
+      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Proxy.png"
     },
     {
-      "name": "direct",
-      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/direct.png"
+      "name": "Direct",
+      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Direct.png"
     },
     {
-      "name": "reject",
-      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/reject.png"
+      "name": "Reject",
+      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Reject.png"
     },
     {
       "name": "Global",
-      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/Global.png"
+      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png"
     },
     {
       "name": "HK",
-      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/HK.png"
+      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png"
     },
     {
       "name": "TW",
-      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/TW.png"
+      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png"
     },
     {
       "name": "SG",
-      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/SG.png"
+      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png"
     },
     {
       "name": "JP",
-      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/JP.png"
+      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png"
     },
     {
       "name": "US",
-      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/US.png"
+      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png"
     },
     {
       "name": "CN",
-      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/CN.png"
+      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/CN.png"
     },
     {
       "name": "Final",
-      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/Final.png"
+      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png"
     },
     {
       "name": "Google",
-      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/Google.png"
+      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png"
     },
     {
       "name": "Apple",
-      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/Apple.png"
+      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png"
     },
     {
       "name": "Twitter",
-      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/Twitter.png"
+      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Twitter.png"
     },
     {
       "name": "YouTube",
-      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/YouTube.png"
+      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png"
     },
     {
       "name": "Spotify",
-      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/Spotify.png"
+      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Spotify.png"
     },
     {
       "name": "Emby",
-      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/Emby.png"
+      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Emby.png"
     },
     {
       "name": "TikTok",
-      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/TikTok.png"
+      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/TikTok.png"
     },
     {
       "name": "Bilibili",
-      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/Bili.png"
+      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Bili.png"
     },
     {
       "name": "Telegram",
-      "url": "https://cdn.jsdelivr.net/gh/Orz-3/mini/Color/Telegram.png"
+      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png"
     }
   ]
 }
