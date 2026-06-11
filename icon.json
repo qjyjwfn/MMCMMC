@@ -1,0 +1,29 @@
+{
+  "name": "NiuNiu图标集",
+  "author": "自定义",
+  "icons": {
+    // 通用规则/协议图标
+    "proxy": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Proxy.png",
+    "direct": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Direct.png",
+    "reject": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Reject.png",
+    "Global": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png",
+
+    // 你常用的地区图标（按需保留）
+    "HK": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png",
+    "TW": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png",
+    "SG": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png",
+    "JP": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png",
+    "US": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png",
+    "CN": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/CN.png",
+    "Final": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png",
+    "Google": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png",
+    "Apple": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png",
+    "Twitter": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Twitter.png",
+    "YouTube": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png",
+    "Spotify": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Spotify.png",
+    "Emby": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Emby.png",
+    "TikTok": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/TikTok.png",
+    "Bilibili": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Bili.png",
+    "Telegram": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png",
+  }
+}
