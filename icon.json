@@ -1,3 +1,4 @@
+
 {
   "name": "NiuNiu图标集",
   "description": "我的精简图标集",
@@ -5,6 +6,30 @@
     {
       "name": "Global",
       "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png"
+    },
+    {
+      "name": "Final",
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png"
+    },
+    {
+      "name": "AdBlack",
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/AdBlack.png"
+    },
+    {
+      "name": "Reject",
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Reject.png"
+    },
+    {
+      "name": "Ox",
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Ox.png"
+    },
+    {
+      "name": "Area",
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Area.png"
+    },
+    {
+      "name": "Speedtest"
+      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Speedtest.png"
     },
     {
       "name": "HK",
@@ -29,10 +54,6 @@
     {
       "name": "CN",
       "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/CN.png"
-    },
-    {
-      "name": "Final",
-      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png"
     },
     {
       "name": "Google",
@@ -71,14 +92,6 @@
       "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png"
     },
     {
-      "name": "AdBlack",
-      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/AdBlack.png"
-    },
-    {
-      "name": "Reject",
-      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Reject.png"
-    },
-    {
       "name": "GitHub_Letter",
       "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GitHub_Letter.png"
     },
@@ -91,16 +104,8 @@
       "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/AI.png"
     },
     {
-      "name": "Ox",
-      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Ox.png"
-    },
-    {
       "name": "Cryptocurrency_1",
       "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Cryptocurrency_1.png"
-    },
-    {
-      "name": "Area",
-      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Area.png"
     }
   ]
 }
