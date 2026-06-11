@@ -32,7 +32,7 @@
     },
     {
       "name": "Final",
-      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png"
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png"
     },
     {
       "name": "Google",
@@ -40,7 +40,7 @@
     },
     {
       "name": "Apple",
-      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png"
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png"
     },
     {
       "name": "Twitter",
@@ -48,7 +48,7 @@
     },
     {
       "name": "YouTube",
-      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png"
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube_Letter.png"
     },
     {
       "name": "Spotify",
@@ -69,6 +69,38 @@
     {
       "name": "Telegram",
       "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png"
+    },
+    {
+      "name": "AdBlack",
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/AdBlack.png"
+    },
+    {
+      "name": "Reject",
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Reject.png"
+    },
+    {
+      "name": "GitHub_Letter",
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/GitHub_Letter.png"
+    },
+    {
+      "name": "ChatGPT",
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ChatGPT.png"
+    },
+    {
+      "name": "AI",
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/AI.png"
+    },
+    {
+      "name": "Ox",
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Ox.png"
+    },
+    {
+      "name": "Cryptocurrency_1",
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Cryptocurrency_1.png"
+    },
+    {
+      "name": "Area",
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Area.png"
     }
   ]
 }
