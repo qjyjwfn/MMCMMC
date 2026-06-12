@@ -1,4 +1,3 @@
-
 {
   "name": "NiuNiu图标集",
   "description": "我的精简图标集",
@@ -36,6 +35,10 @@
       "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Area.png"
     },
     {
+      "name": "Download",
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Download.png"
+    },
+    {
       "name": "Speedtest",
       "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Speedtest.png"
     },
@@ -57,11 +60,35 @@
     },
     {
       "name": "US",
-      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png"
+      "url": "https://url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png"
     },
     {
       "name": "CN",
       "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/CN.png"
+    },
+    {
+      "name": "China",
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png"
+    },
+    {
+      "name": "HongKong",
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_kong.png"
+    },
+    {
+      "name": "Taiwan",
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png"
+    },
+    {
+      "name": "Singapore",
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png"
+    },
+    {
+      "name": "US",
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png"
+    },
+    {
+      "name": "Japan",
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png"
     },
     {
       "name": "Google",
@@ -74,6 +101,10 @@
     {
       "name": "twitter(2)",
       "url": "https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/04ProxySoft/twitter(2).png"
+    },
+    {
+      "name": "Senplayer",
+      "url": "https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/03CNSoft/senplayer(1).png"
     },
     {
       "name": "YouTube",
@@ -114,6 +145,10 @@
     {
       "name": "AI",
       "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/AI.png"
+    },
+    {
+      "name": "Claude",
+      "url": "https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/icon/04ProxySoft/claude.png"
     },
     {
       "name": "Cryptocurrency_1",
