@@ -43,6 +43,10 @@
       "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Speedtest.png"
     },
     {
+       "name": "CN",
+       "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/CN.png"
+    },
+    {
       "name": "HK",
       "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HK.png"
     },
@@ -63,8 +67,8 @@
       "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/US.png"
     },
     {
-      "name": "CN",
-      "url": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/CN.png"
+      "name": "China_Map",
+      "url": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China_Map.png"
     },
     {
       "name": "China",
