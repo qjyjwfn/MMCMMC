@@ -4,7 +4,7 @@
 */
 
 function operator(proxies) {
-    const prefix = "[", suffix = "]"; 
+    const prefix = "", suffix = ""; 
     const isEN = false; // false 为中文 (🇺🇸美国)，true 为英文 (🇺🇸US)
 
     // 1. 垃圾节点过滤正则（将原数组合并，极大提升性能与精简度）
