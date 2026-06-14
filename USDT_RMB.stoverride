@@ -1,0 +1,14 @@
+name: "Crypto 汇率面板 V3"
+desc: "使用全新 Gist 链接，解决 $log 报错问题"
+
+tiles:
+  - name: "Crypto_RMB_V3"
+    interval: 300
+    title: "USDT/TRX 汇率"
+    icon: "yensign.circle.fill"
+    backgroundColor: "#10B981"
+
+script-providers:
+  "Crypto_RMB_V3":
+    url: "https://gist.githubusercontent.com/qjyjwfn/4d8c9f2e31faca1489ab7c0e9405978a/raw/USDT_RMB.js"
+    interval: 86400
