@@ -1,14 +1,14 @@
-#!name=Spotify(>=iOS15)
-#!desc=2025.06.27 部分解锁premium,音质不能设置为超高(建议登录后再打开脚本,重启app等待脚本生效)
+#!name=Spotify Premium (Local)
+#!desc=2026 本地化稳定版 - 去除广告 + Premium部分解锁
 #!openUrl=https://github.com/app2smile/rules
-# 功能: 1.去除播放广告 2.歌手/专辑列表正常展示 3.去除随机播放
+# 注意：音质不要设置为"超高"，登录账号后打开插件，重启Spotify
 
 [Rewrite]
 ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/user-customization-service\/v1\/customize$ header-del if-none-match
 
 [Mitm]
-hostname = spclient.wg.spotify.com, *spclient.spotify.com
+hostname = spclient.wg.spotify.com, *.spclient.spotify.com
 
 [Script]
-http-request ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ script-path=https://raw.githubusercontent.com/app2smi[...]
-http-response ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ script-path=https://raw.githubusercont[...]
+http-request ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ script-path=spotify-json.js, timeout=10, tag=spotifyJson
+http-response ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ script-path=spotify-proto.js, requires-body=true, binary-body-mode=true, timeout=10, tag=spotifyProto
