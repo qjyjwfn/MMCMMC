@@ -1,0 +1,28 @@
+#!name = Mate翻译 - 终极稳定版
+#!desc = Mate解锁 + 抗接口变化 + 多层兜底
+#!author = fix-core
+
+[MITM]
+hostname = *.gikken.co
+
+[Script]
+
+# ===============================
+# ① 全域 matesync 捕获（核心）
+# ===============================
+mate_all = type=http-response,pattern=^https?:\/\/.*gikken\.co\/matesync\/.*,script-path=https://cdn.jsdelivr.net/gh/chxm1023/Rewrite@main/mate.js,requires-body=true,timeout=60
+
+# ===============================
+# ② API行为兜底（防版本变化）
+# ===============================
+mate_api_fallback = type=http-response,pattern=^https?:\/\/.*gikken\.co\/.*(subscription|login|register|check|verify).*,script-path=https://cdn.jsdelivr.net/gh/chxm1023/Rewrite@main/mate.js,requires-body=true,timeout=60
+
+# ===============================
+# ③ 强制登录态修正
+# ===============================
+mate_login = type=http-response,pattern=^https?:\/\/.*gikken\.co\/.*login.*,script-path=https://cdn.jsdelivr.net/gh/chxm1023/Rewrite@main/mate.js,requires-body=true
+
+# ===============================
+# ④ 超级兜底（防API改路径）
+# ===============================
+mate_wildcard = type=http-response,pattern=^https?:\/\/.*gikken\.co\/.*,script-path=https://cdn.jsdelivr.net/gh/chxm1023/Rewrite@main/mate.js,requires-body=true,timeout=60
