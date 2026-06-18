@@ -1,0 +1,12 @@
+#!name=Mate翻译解锁
+#!desc=解除Mate翻译高级订阅限制 适配Loon
+#!author=Alex0510
+#!icon=https://raw.githubusercontent.com/GideonSenku/SubConfig/master/Icon/Translate.png
+#!date=2026-06-18
+
+[Script]
+# 使用gitmirror镜像解决国内raw无法访问问题
+http-response ^https://asia.gikken.co/matesync/ script-path=https://raw.gitmirror.com/Alex0510/Eric/master/surge/Script/mate.js,requires-body=true,tag=Mate翻译解锁
+
+[MITM]
+hostname = asia.gikken.co,api.asia.gikken.co
