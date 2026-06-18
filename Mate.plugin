@@ -1,0 +1,5 @@
+[MITM]
+hostname = asia.gikken.co, api.gikken.co, www.gikken.co
+
+[Script]
+mate_unlock = type=http-response,pattern=^https?:\/\/(asia|api|www)\.gikken\.co\/matesync\/.*,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/mate.js,requires-body=true,timeout=60
