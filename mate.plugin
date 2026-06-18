@@ -1,12 +1,25 @@
-#!name = Mate翻译
-#!desc = 移除Mate翻译高级版限制并同步配置
-#!author = Alex0510
-#!homepage = https://github.com/Alex0510/Eric
-#!icon = https://raw.githubusercontent.com/GideonSenku/SubConfig/master/Icon/Translate.png
-#!date = 2026-06-07
-
-[Script]
-http-response ^https://asia.gikken.co/matesync/(subscription|login|check_user) script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/mate.js, requires-body=true, tag=Mate翻译
+#!name = Mate翻译 - 永久稳定版
+#!desc = Mate翻译 解锁 + 同步（抗接口变化增强版）
+#!author = fix-core
+#!category = unlock
 
 [MITM]
-hostname = asia.gikken.co
+hostname = asia.gikken.co, api.gikken.co, www.gikken.co
+
+[Script]
+
+# 1. 全局 matesync 捕获（核心）
+http-response ^https?:\/\/(asia|api|www)\.gikken\.co\/matesync\/.* \
+script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/mate.js, requires-body=true, max-size=-1, timeout=60, tag=mate_all_hook
+
+# 2. 订阅状态（防绕过）
+http-response ^https?:\/\/(asia|api|www)\.gikken\.co\/matesync\/(subscription|check_user|register_user|login|verify_user).* \
+script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/mate.js, requires-body=true, max-size=-1, timeout=60, tag=mate_auth_hook
+
+# 3. 强制登录态修正（防失效关键补丁）
+http-response ^https?:\/\/(asia|api|www)\.gikken\.co\/.*login.* \
+script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/mate.js, requires-body=true, timeout=60, tag=mate_login_fix
+
+# 4. 订阅检查兜底（防新版接口）
+http-response ^https?:\/\/.*gikken\.co\/.*(subscription|check).* \
+script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/mate.js, requires-body=true, max-size=-1, timeout=60, tag=mate_fallback
